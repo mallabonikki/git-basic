@@ -26,5 +26,12 @@ namespace Git_basics.Controllers
 
             return View();
         }
+
+        public ContentResult Multiply(int a, int b)
+        {
+            return Content(string.Format("{0}", a*b));
+        }
+
+       
     }
 }
