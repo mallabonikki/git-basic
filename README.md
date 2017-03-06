@@ -9,6 +9,9 @@
  
 Features | Git Basic Commands
 --- | ---
-* git init
-* Multiply query parameters and View it as ViewContent | 
+* git init | 
+* Multiply query parameters and View it as ViewContent | * git add -A
+  | * git commit -m "Multiply query parameters and View it as ViewContent"
+  | * git pull origin master
+  | * git push origin master
 * Divide query parameters and View it as ViewContent |
