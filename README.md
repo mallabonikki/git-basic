@@ -8,7 +8,8 @@
  
 1. git init 
 
-1. Multiply query parameters and View it as ViewContent | * git add -A
+1. Multiply query parameters and View it as ViewContent 
+ * git add -A
  * git commit -m "Multiply query parameters and View it as ViewContent"
  * git pull origin master
  * git push origin master
