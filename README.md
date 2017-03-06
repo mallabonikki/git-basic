@@ -9,7 +9,8 @@
 1. git init 
 
 1. Multiply query parameters and View it as ViewContent 
- * git add -A
+ * git add -A = add to staging area
+  * git reset = unstage all files that has been in stage area previously
  * git commit -m "Multiply query parameters and View it as ViewContent"
  * git pull origin master
  * git push origin master
