@@ -1,4 +1,4 @@
- ####Set config Values 
+### Git Basic commands and common workflow
  1. git config --global user.name "mallabonikki"
  2. git config --global user.email "mallabonikki6678@gmail.com"
  3. git config --list
