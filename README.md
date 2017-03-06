@@ -14,4 +14,4 @@
  * git pull origin master
  * git push origin master
 
-1. Divide query parameters and View it as ViewContent |
+1. Divide query parameters and View it as ViewContent
