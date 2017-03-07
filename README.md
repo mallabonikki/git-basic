@@ -1,10 +1,10 @@
-### Git Basic commands and common workflow
- 1. git config --global user.name "mallabonikki"
- 2. git config --global user.email "mallabonikki6678@gmail.com"
- 3. git config --list
- 4. git config --help
- 5. git help config
- 6. git add --help
+1. Git Basic commands
+ * git config --global user.name "mallabonikki"
+ * git config --global user.email "mallabonikki6678@gmail.com"
+ * git config --list
+ * git config --help
+ * git help config
+ * git add --help
  
 * git init
 
@@ -20,6 +20,7 @@
 * git push origin master
 * git branch -a
 
+2. Common Workflow
 * Create a branch for the desired feature
 * git branch calc-divide
 * git branch
