@@ -54,17 +54,34 @@
  * git status = Working tree clean
  * git log = Intial Subract (is the current HEAD)
  * git branch subract-feature = create new branch called subract-feature
- * modify this guy on the master branch: public ContentResult Subract(int a, int b)
-                         {
-                             return Content(String.Format("{0} - {1} = {2}", a ,b, a-b ));
-                         }
- * git status
- * git diff
+ * modify this guy on the master branch: 
+   public ContentResult Subract(int a, int b)
+   {
+       return Content("This is and example string asdfasdfasdfdfasdf");
+   }
+ * git status = HomeContrller was modified
+ * git diff = It shows the changes that was made in the HomeContrller
  * git checkout Git-basics/Controllers/HomeController.cs = working tree should be clean
  * git diff = no changes
- * go back to the file and reload, the file back to the way the things were after we made the Inital Subract commit
- * 
+ * go back to the file and reload, the file back to the way the things were after we made the Inital Subract commit, the working tree        will be cleaned
+ * modify to: public ContentResult Subract(int a, int b)
+              {
+                  return Content(string.Format("{0}", a - b));
+              }
+ * git add -A,
+ * git commit -m "Completed Multiply Function" = This is a wrong message. I intentionally did it.
+ * git log
+ * git commit --amend -m "Completed Subract Function" = use --amend option to change the commit messaage from the last commit, However      the hash value has changed
  
+ * modify the .gitignore file
+ * git add .gitignore
+ * git log -stat = 1 file changed HomeController.cs
+ * git commit --amend = no messaage
+   editor will pop up the press ":wq" to save and exit
+ * git log
+ * git log --stat = 2 files changed HomeController.cs and .gitignore(will show this log)
+
+
 
  
   
