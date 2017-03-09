@@ -58,8 +58,12 @@
                          {
                              return Content(String.Format("{0} - {1} = {2}", a ,b, a-b ));
                          }
+ * git status
  * git diff
-
+ * git checkout Git-basics/Controllers/HomeController.cs = working tree should be clean
+ * git diff = no changes
+ * go back to the file and reload, the file back to the way the things were after we made the Inital Subract commit
+ * 
  
 
  
