@@ -35,4 +35,31 @@
 * git diff = to see that there is no changes here now, back to the things that were made after the multiply commit
     * git add -A
     * git commit --amend = to include it to "Multiply two query parameter"
+    * git log --stat = to see the last added files to this commit
+* Create a method Subract ContentResuslt in the HomeController with the right subtract statement
+* git status
+* git commit -m "Completed Multiply Function" = which is wrong message
+  * git add -A = just to stage the README.md
+* git commit --amend -m "Completed Subract Fucntion" = to change the last commit message which is wrong a messaage
+  * git log --stat = to see the last added files to this commit 
 
+#### Fixing commits on the wrong branch by using cherry-pick
+ * asume that we've already created subtract-feature branch
+ * git branch = *master, subtract-feature
+ * git log = HEAD~"Completed Subtract Function"
+ * copy the commit hash
+ * git checkout subtract-feature
+ * git log = HEAD~"Multiply two query parameter"
+ * git cherry-pick <commit hash that have been copied from the master branch>
+ * git checkout master = go back to master branch to delete the wrong commit by using git reset
+   * git log = to copy the commit hash of "Multiply two query parameter"(2nd to the last commit)
+   * git reset --soft <copied hash> = return to the last commit 
+     * git log = the "Multiply two query parameter" commit has gone
+     * git status = there is some files in the staging area, it came from the modification that were made from this commit
+   * git reset <copied hash> = return to the last commit
+     * git log = the "Multiply two query parameter" commit has gone
+     * git status = this time the files are in the working directory 
+   * git reset --hard <copied hash> = return to the last commit
+     * git log = the "Multiply two query parameter" commit has gone
+     * git status = leaves the untracked files(added files)
+     * git clean -df = to get rid of the untracked files
