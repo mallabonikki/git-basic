@@ -35,4 +35,18 @@
 * git diff = to see that there is no changes here now, back to the things that were made after the multiply commit
     * git add -A
     * git commit --amend = to include it to "Multiply two query parameter"
+    * git log --stat = to see the last added files to this commit
+* Create a method Subract ContentResuslt in the HomeController with the right subtract statement
+* git status
+* git commit -m "Completed Multiply Function" = which is wrong message
+  * git add -A = just to stage the README.md
+* git commit --amend -m "Completed Subract Fucntion" = to change the last commit message which is wrong a messaage
+  * git log --stat = to see the last added files to this commit 
 
+#### Fixing commits on the wrong branch by using cherry-pick
+ * asume that we've already created subtract-feature branch
+ * git branch = *master, subtract-feature
+ * git log = HEAD~"Completed Subtract Function"
+ * copy the commit hash
+ * git checkout subtract-feature
+ * git log = HEAD~"Multiply two query parameter"
