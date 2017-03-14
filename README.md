@@ -63,3 +63,13 @@
      * git log = the "Multiply two query parameter" commit has gone
      * git status = leaves the untracked files(added files)
      * git clean -df = to get rid of the untracked files
+#### Restore commits using git reflog which has been deleted by the git reset(life saver)
+ * git reflog = show all the previous changes that were made with as commit hash, heads and description
+ * copy the hash you want to restore
+ * git checkout <copied hash>
+ * git branch backup = create this to make a branch for the feature you want to copy
+ * git log = to display the existence of the backup branch
+ * git checkout master
+ * use git merge to restore the copy of this feature 
+ 
+   
