@@ -71,5 +71,12 @@
  * git log = to display the existence of the backup branch
  * git checkout master
  * use git merge to restore the copy of this feature 
+
+#### Undo commits using git revert
+* git log 
+  * copy the commit hash would you like to undo
+* git revert <copied hash> = a32bfbaed65bff5d7368df83a734b38e216b29b4 (this is the current head)
+* git log = it will show the new reverted commit 
+  * the current feature would be the same with the 2nd to the last head
  
    
