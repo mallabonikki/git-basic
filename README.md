@@ -84,6 +84,22 @@
  * git branch calc-divide
  * git checkout calc-divide
    * Create a Divide method in HomeController.cs with two parameters and the type is ContentResult
+ * git add -A
+ * git commit -m "divide-feature"
+ * git commit --amend
+ * git log --stat
+ * git add -A
+ * git commit --amend
+ * git pull origin master = optional
+ * git checkout master
+ * git branch --merged = list all branch that has been merged
+ * git merge calc-divide = it will merge all the changes in the master
+ * git push origin master
+ * git branch --merged = check if it is successfully merged
+ * git branch -d calc-divide = calc-divide local repository should be deleted
+ * git branch -a = show all branches
+ * git push origin --delete calc-divide = delete remote branch calc-divide
+ 
    
  
    
