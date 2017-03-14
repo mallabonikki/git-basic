@@ -36,5 +36,10 @@ namespace Git_basics.Controllers
         {
             return Content(string.Format("{0}", a-b));
         }
+
+        public ContentResult Divide(int a, int b)
+        {
+            return Content(string.Format("{0}", a/b));
+        }
     }
 }
