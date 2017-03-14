@@ -78,5 +78,12 @@
 * git revert <copied hash> = a32bfbaed65bff5d7368df83a734b38e216b29b4 (this is the current head)
 * git log = it will show the new reverted commit 
   * the current feature would be the same with the 2nd to the last head
+
+#### Common workflow using git merge
+ * git branch = master
+ * git branch calc-divide
+ * git checkout calc-divide
+   * Create a Divide method in HomeController.cs with two parameters and the type is ContentResult
+   
  
    
