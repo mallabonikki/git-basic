@@ -103,7 +103,7 @@
 
  
    Lorem ipsum dolor sit amet, cu hinc summo urbanitas ius. 
-   Awsome prima facilisi inciderint ei, ex duo commodo dolorum disputationi, ne mei platonem temporibus. 
+   Compromise changes from the remote branch Amazingly-Awsome prima facilisi inciderint ei, ex duo commodo dolorum disputationi, ne mei platonem temporibus. 
    Has no omnis dissentiet, dicant option in nec. Eu vix blandit assentior, qui ei denique tacimates. 
    Has id case affert voluptua, an natum splendide sententiae cum, ei habeo explicari consectetuer mel. 
    Et veri detracto prodesset mei.
