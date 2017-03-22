@@ -99,7 +99,14 @@
  * git branch -d calc-divide = calc-divide local repository should be deleted
  * git branch -a = show all branches
  * git push origin --delete calc-divide = delete remote branch calc-divide
+
+
  
-   
+   Lorem ipsum dolor sit amet, cu hinc summo urbanitas ius. 
+   Amazingly-Awsome prima facilisi inciderint ei, ex duo commodo dolorum disputationi, ne mei platonem temporibus. 
+   Has no omnis dissentiet, dicant option in nec. Eu vix blandit assentior, qui ei denique tacimates. 
+   Has id case affert voluptua, an natum splendide sententiae cum, ei habeo explicari consectetuer mel. 
+   Et veri detracto prodesset mei.
+
  
    
