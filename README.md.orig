@@ -99,8 +99,13 @@
  * git branch -d calc-divide = calc-divide local repository should be deleted
  * git branch -a = show all branches
  * git push origin --delete calc-divide = delete remote branch calc-divide
+<<<<<<< HEAD
+ 
+   
+=======
 
 
+>>>>>>> f0bbf26... divide-feature
  
    Lorem ipsum dolor sit amet, cu hinc summo urbanitas ius. 
    Awsome prima facilisi inciderint ei, ex duo commodo dolorum disputationi, ne mei platonem temporibus. 
