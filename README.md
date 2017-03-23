@@ -99,11 +99,39 @@
  * git branch -d calc-divide = calc-divide local repository should be deleted
  * git branch -a = show all branches
  * git push origin --delete calc-divide = delete remote branch calc-divide
+
  
-   
- Lorem ipsum dolor sit amet, cu hinc summo urbanitas ius. 
-   Awsome prima facilisi inciderint ei, ex duo commodo dolorum disputationi, ne mei platonem temporibus. 
+   Lorem ipsum dolor sit amet, cu hinc summo urbanitas ius. 
+   Amazingly-Awsome prima facilisi inciderint ei, ex duo commodo dolorum disputationi, ne mei platonem temporibus. 
    Has no omnis dissentiet, dicant option in nec. Eu vix blandit assentior, qui ei denique tacimates. 
    Has id case affert voluptua, an natum splendide sententiae cum, ei habeo explicari consectetuer mel. 
    Et veri detracto prodesset mei.
+
+#### DiffTool
+* git branch = master
+  * make changes to the README.md
+* git add -A
+* git diff = to see the changes on the default diff tool
+* git difftool - to compare the changes on the difftool by sourcegear
+  * edit the statements to the right to make changes.
+
+#### Mergetool
+* git branch = master
+  * a README.md exist on this branch and there is a paragragh on it.
+* git branch testmerge
+* git checkout testmerge
+  * make changes in the README.md(edit only).
+* git add -A
+* git checkout master
+* git merge testmerge
+  * a conflict message will come up and it needs to be fix.
+* git mergetool
+  * edit the appropriate statement here and compromise it in the base on the difftool to finalize the appropriate statement.
+  * save the file from the sourcegear difftool editor
+* git commit = to commit the changes and a default message will be provided
+* git clean -df = to get rid out of untrackted file README.md.orig(changes from the local and remote are combined here)
+
+#### Create and Checkout to a branch straight away
+* git checkout -b <branch name> = it creates a branch and checkout it 
+* I created this trial messaage to do the rebase divide-feature
    
