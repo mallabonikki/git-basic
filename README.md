@@ -134,5 +134,6 @@
 
 #### Create and Checkout to a branch straight away
 * git checkout -b <branch name> = it creates a branch and checkout it 
- 
+
+I created this trial messaage to do the rebase on "trial message" commit 
    
