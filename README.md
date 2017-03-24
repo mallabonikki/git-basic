@@ -137,3 +137,27 @@
 
 I created this trial messaage to do the rebase on "trial message" commit 
    
+#### Rebasing
+* create a new-master branch and checkout.
+* git log --oneline
+  * copy the SHA of the commit before the problems occured.
+* git rebase -i <copied SHA>
+  * On the text editor of bash shell change pick to r/reword then save and exit
+    * to edit press i and esc when finised then press :wq to write and quit
+* If there's no conflict an editor should appear to edit the commit message
+* Otherwise, use mergetool to fix the conflict
+  * git add -A = to retain all original files
+  * git commit = to continue the next rebase command without rebase --continue
+  * git commit -m = to create new commit
+  * git commit -a = to open the text editor and create new commit message
+  * Always add the original files for backup retrieving purposes
+* git rebase --continue = to do the next rebase commit until all done
+
+#### Rebase and edit a files in the middle of commits and reword the message commit
+* git rebase -i <copied SHA before the commit has occured>
+  * On the text editor press "e" then select the commit you want to modify then change "pick" to "reword"
+  * On the text editor press "a" to abort
+  * On VS edit the file you want to modify and save
+* git add -A
+* git commit --amend -m "last message + edited1" = put the "last messege + edited1" to recognized that has been modified
+* git rebase --continue = to continue the next rebase until all done 
